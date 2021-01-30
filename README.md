@@ -1,2 +1,2 @@
 # Staff-Allocation
-Used MIMIC dataset, which contains information about ICU patients, to predict the number of nurses required in ICU according to the severity of the patients admitted. 
+Predicts the number of nurses required in ICU in a day based on the severity of the patients admitted. Data is collected from the MIMIC dataset which is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients https://mimic.physionet.org/about/mimic/. Random Forest Algorithm is used to predict the severity of a patient which is then used to calculate the number of nurses required.
